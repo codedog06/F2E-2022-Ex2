@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+img {
+ max-width: 100%;
+}
+
+h1 {
+ line-height: 4.375rem;
+}
+
+section {
+ padding: 50px 0;
+}
+
+.logo {
+ width: 218px;
+ height: 40px;
+ overflow: hidden;
+}
+
+.mainHeader {
+ background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg'), url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg');
+ background-position: top right, bottom -180px left -225px;
+ background-size: 850px, 360px;
+ background-repeat: no-repeat;
+ padding: 0 0 150px 0;
+}
+
+.platform {
+ background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg');
+ background-position: top -180px left -225px;
+ background-size: 360px;
+ background-repeat: no-repeat;
+ img {
+  width: 90px;
+ }
+}
