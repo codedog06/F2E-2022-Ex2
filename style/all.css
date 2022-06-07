@@ -40,6 +40,13 @@ section {
   width: 90px;
 }
 
+.role {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball02.svg");
+  background-position: bottom -75px right -100px;
+  background-size: 310px;
+  background-repeat: no-repeat;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
