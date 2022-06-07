@@ -375,11 +375,13 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: $spacer * .25, // 4
-  2: $spacer * .5,  // 8
-  3: $spacer,       // 16
-  4: $spacer * 1.5, // 24
-  5: $spacer * 3,
+  1: $spacer * .25,   // 4
+  2: $spacer * .5,    // 8
+  3: $spacer,         // 16
+  4: $spacer * 1.5,   // 24
+  5: $spacer * 1.75,  // 28
+  6: $spacer * 1.875, // 30
+  7: $spacer * 2,     // 32
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -1257,7 +1259,7 @@ $card-title-spacer-y:               $spacer * .5 !default;
 $card-border-width:                 $border-width !default;
 $card-border-color:                 rgba($black, .125) !default;
 $card-border-radius:                0.75rem !default; //$border-radius !default;
-$card-box-shadow:                   0px 2px 10px 4px rgba(0,0,0,0.14) !default; //null !default;
+$card-box-shadow:                   null !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                $card-spacer-y * .5 !default;
 $card-cap-padding-x:                $card-spacer-x !default;

@@ -43,3 +43,13 @@ section {
  background-size: 310px;
  background-repeat: no-repeat;
 }
+
+.features {
+ .card-img {
+  width: 86px;
+  height: 86px;
+  img {
+   max-width: 52px;
+  }
+ }
+}
