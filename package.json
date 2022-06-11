@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/codedog06/F2E-2022-Ex2#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "swiper": "^8.2.3"
   }
 }
