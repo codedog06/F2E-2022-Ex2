@@ -28,6 +28,7 @@ section {
 
 header {
   position: relative;
+  margin-bottom: 100px;
 }
 
 header::before {
@@ -193,9 +194,6 @@ footer {
   section {
     padding-top: 50px;
     margin-bottom: 50px;
-  }
-  header {
-    padding: 0 0 150px 0;
   }
   header::before {
     width: 850px;
